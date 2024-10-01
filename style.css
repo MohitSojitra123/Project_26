@@ -1,0 +1,431 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* hreo section */
+.nav{
+    width: 100%;
+    height: 695px;
+}
+.img{
+    width: 50%;
+    height: inherit;
+    background-color: black;
+    float: left;
+}
+a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+#as12:hover{
+    background-color: white;
+    color: black;;
+}
+.con{
+    width: 50%;
+    height: inherit;
+    background-color: black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog{
+    width:80%;
+    height: 500px;
+}
+.logo{
+    width: 30%;
+    height: 180px;
+    /* background-color: violet; */
+    background-image: url(./photo/img2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-inline: 10px;
+    margin-inline: 220px;
+}
+a{
+ text-decoration: none;
+ padding:20px;
+ background-color:black;
+ padding-inline: 30px;
+ border-radius: 20px;
+ border: 3px solid white;
+ color: white;
+}
+/* hero section */
+.con1{
+    width: 100%;
+    height: 200px;
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+}
+/* section 1 */
+.container{
+  width: 100%;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.sub , .sub1{
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    width: 25%;
+    height: 400px;
+    float: left;
+    margin: 10px;
+}
+.pro{
+    width: 70%;
+    height: 250px;
+    border-radius: 50%;
+    margin-inline: 60px;
+}
+.item1 h1{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 25px;
+}
+.item1 h2{
+    color: gray;
+}
+.item1 p{
+   font-size: 20px;
+}
+.pri{
+    width: 100%;
+    height: 230px;
+    padding: 20px;
+}
+.pro {
+    background-image: url('./photo/im1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.pro2{
+ background-image: url('./photo/im2.jpg');
+}
+.pro3{
+    background-image: url('./photo/im3.jpg');
+}
+.pro4{
+    background-image: url('./photo/im4.jpg');
+}
+.pro5{
+    background-image: url('./photo/im5.jpg');
+}
+.pro6{
+    background-image: url('./photo/im6.jpg');
+}
+/* section 1 */
+/* section 2 */
+.maincon{
+  width: 100%;
+  height: 1050px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.con123{
+    width: 70%;
+    height: 950px;
+}
+.upper , .lower{
+  width:100%;
+  height: 400px;
+  display:flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.im{
+    width: 90%;
+    height: 190px;
+    border-radius: 50%;
+    margin: auto;
+
+}
+.card1{
+    width: 23%;
+    height: 400px;
+ background-color: white;
+    padding-top: 10px;
+}
+.detail{
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+}
+.detail h2{
+   padding-bottom: 10px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.detail p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 23px;
+    color:gray;
+}
+.detail u{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.im1{
+    background-image: url('./photo/m1.jpg');
+    background-position: right;
+    background-size: cover;
+}
+.im2{
+    background-image: url('./photo/m2.jpg');
+    background-position: right;
+    background-size: cover;
+}
+.im3{
+    background-image: url('./photo/m3.jpg');
+    background-position: right;
+    background-size: cover;
+}
+.im4{
+    background-image: url('./photo/m4.jpg');
+    background-position: right;
+    background-size: cover;
+}
+.im5{
+    background-image: url('./photo/m5.jpg');
+    background-position: right;
+    background-size: cover;
+}
+.im6{
+    background-image: url('./photo/m6.jpg');
+    background-position: right;
+    background-size: cover;
+}
+.im7{
+    background-image: url('./photo/m7.jpg');
+    background-position: right;
+    background-size: cover;
+}
+.im8{
+    background-image: url('./photo/m8.jpg');
+    background-position: right;
+    background-size: cover;
+}
+/* section 2 */
+.imgg{
+    width: 100%;
+    height: 550px;
+   background-image: url('./photo/iimm.jpg');
+   background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ca{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+.cardss{
+    width: 70%;
+    height:300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+  width: 30%;
+  height: 250px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px;
+}
+.caa{
+    width: 100%;
+    height:700px;
+    background-color:#A79F94;
+    display: flex;
+    justify-content:flex-start;
+    justify-content: center;
+    padding-top: 80px;
+}
+.caa1{
+    width: 70%;
+     height: 300px;
+     display: flex;
+}
+.car1{
+    width: 40%;
+    height: inherit;
+    background-image: url('./photo/qwe.jpg');
+    background-position: top;
+    background-size: cover;
+}
+.car2{
+    width: 60%;
+    height: inherit;
+    padding: 20px;
+}
+/* section 3 */
+.qa1{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    transform: translateY(-200px);
+}
+.dd1{
+    width: 70%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+.s1{
+    width: 30%;
+    height: inherit;
+    background-color: #A79F94;
+    border-radius: 70px 70px 0px 0px;
+}
+.f12{
+    width: 100%;
+    height: 340px;
+}
+.f12{
+   background-image: url('./photo/tt1.jpg');
+   background-position: center;
+   background-size: cover;
+   border-radius:60px 60px 0px 0px;
+}
+.fg2{
+    background-image: url('./photo/tt2.jpg');
+ }
+ .fg3{
+    background-image: url('./photo/tt3.jpg');
+ }
+.pp1 h1{
+    font-size: 30px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     padding-bottom: 10px;
+} 
+ .pp1{
+    width: 100%;
+    height: 160px;
+    padding: 20px;
+    line-height:23px;
+    font-size: 18px;
+ }
+/* section 3 */
+/* section 4 */
+.contact{
+    width: 100%;
+    height: 400px;
+    margin-top: -130px;
+    display: flex;
+    justify-content: center;
+}
+.x1{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    transform: translateX(100px);
+}
+.con12{
+    width: 45%;
+    height: 400px;
+    padding: 10px;
+}
+.con2{
+    width:45%;
+    height: inherit;
+    padding-right: 100px;
+}
+.ser{
+    width: 100%;
+    height: 45px;
+    display: flex;
+}
+.ser1{
+    width: 80%;
+    height: 100%;
+}
+.ser1 input{
+    width: 100%;
+    height: 100%;
+}
+.ser2{
+  width: 20%;
+  height: inherit;
+}
+.ser button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color: #A79F94;
+    border: none;
+}
+.con2{
+   padding: 10px;
+}
+.x1 h1{
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* section 4 */
+/* footer */
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.asqw1{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+.footi{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.foo1{
+    width: 23%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width: 100%;
+    height: 140px;
+    background-color: rgb(6, 5, 5);
+    padding-top: 30px;
+}
+.icon span{
+    font-size: 25px;
+    word-spacing: 35px;
+    color: white;
+}
+/* footer */
